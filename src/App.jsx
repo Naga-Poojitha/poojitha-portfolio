@@ -45,7 +45,7 @@ const projects = [
     description:
       "A real-time object detection system using YOLOv8 with image processing, annotation and camera-based detection.",
     tech: ["Python", "YOLOv8", "OpenCV", "NumPy"],
-    link: "https://drive.google.com/file/d/1nphtyQt64CrRlQuN8COJkk3ZfFtoIPd/view",
+    link: "https://drive.google.com/file/d/1nphtyQt64CrmRlQuN8COJkk3ZfFtoIPd/view?usp=sharing",
   },
 ];
 
@@ -75,7 +75,7 @@ const achievements = [
     title: "3rd Prize",
     event: "JNTUGV Level-3 24-Hour Buildathon",
     detail: "₹7,000 • CODEPY",
-    image: "/achievements/hackathon.jpg",
+    image: "./achievements/hackathon.jpg",
     color: "purple-card",
   },
   {
@@ -84,7 +84,7 @@ const achievements = [
     title: "Runner-Up",
     event: "Power BI Hackathon",
     detail: "₹1,500",
-    image: "/achievements/powerbi.jpg",
+    image: "./achievements/powerbi.jpg",
     color: "mint-card",
   },
   {
@@ -93,7 +93,7 @@ const achievements = [
     title: "2nd Prize",
     event: "GYAN 2K24 Tech Fest",
     detail: "Technical Achievement",
-    image: "/achievements/gyan.jpg",
+    image: "./achievements/gyan.jpg",
     color: "peach-card",
   },
 ];
@@ -120,7 +120,7 @@ function App() {
         </nav>
 
         <a
-          href="/resume.pdf"
+          href="./resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="resume-nav"
@@ -158,7 +158,7 @@ function App() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="./resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="text-btn"
@@ -180,7 +180,7 @@ function App() {
 
                     <div className="profile-frame">
                     <img
-                        src="/profile.jpg"
+                        src="./profile.jpg"
                         alt="Gulla Naga Poojitha"
                     />
                     </div>
